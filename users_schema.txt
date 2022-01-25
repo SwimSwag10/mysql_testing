@@ -1,0 +1,12 @@
+USE users_schema;
+
+SHOW tables;
+
+INSERT INTO users (first_name, last_name, email, created_at, updated_at)
+VALUES ('Jonathen', 'Kob', 'kobberman@cob.com', NOW(), NOW());
+
+INSERT INTO users (first_name, last_name, email, created_at, updated_at)
+VALUES ('Larry', 'Cable', 'cable@electricity.com', NOW(), NOW());
+
+INSERT INTO users (first_name, last_name, email, created_at, updated_at)
+VALUES ('Carry', 'Heavy', 'carryheavy@weight.com', NOW(), NOW());
